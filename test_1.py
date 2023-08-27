@@ -11,3 +11,13 @@ print(len({x*y for x in range(1, 11) for y in range(1, 11)}))
 # comprehension #3
 # sequant power for number 2
 print([2**i for i in range(65)])
+
+# comprehension #4
+# results of multiplication all numbers in range 0 - 10
+print({x*y for x in range(1,11) for y in range(1,11)})
+print(len({x*y for x in range(1,11) for y in range(1,11)}))
+
+# comprehension #5
+# results of multiplication all different numbers in range 0 - 10
+print({x*y for x in range(1,11) for y in range(1,11) if x != y})
+print(len({x*y for x in range(1,11) for y in range(1,11) if x != y}))
