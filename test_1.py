@@ -21,3 +21,8 @@ print(len({x*y for x in range(1,11) for y in range(1,11)}))
 # results of multiplication all different numbers in range 0 - 10
 print({x*y for x in range(1,11) for y in range(1,11) if x != y})
 print(len({x*y for x in range(1,11) for y in range(1,11) if x != y}))
+
+# comprehension #6
+# dict – key: value
+print({x: x*x for x in range(-5, 6)})
+print(len({x: x*x for x in range(-5, 6)}))
